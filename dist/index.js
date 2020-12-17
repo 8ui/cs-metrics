@@ -93,5 +93,6 @@ var Metrics = /*#__PURE__*/function () {
   return Metrics;
 }();
 
+window.Metrics = Metrics;
 var _default = Metrics;
 exports["default"] = _default;
