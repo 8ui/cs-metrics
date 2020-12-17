@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/8ui/cs-metrics#readme",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
     "detect-browser": "^5.2.0"
   },
   "devDependencies": {
