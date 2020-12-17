@@ -1,6 +1,6 @@
 const { detect } = require('detect-browser');
 
-class MetricsClass {
+class Metrics {
   constructor() {
     this.url = 'https://metrics.cloudshop.ru/';
 
@@ -70,4 +70,4 @@ class MetricsClass {
   }
 }
 
-export default MetricsClass;
+export default Metrics;
