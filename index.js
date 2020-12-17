@@ -70,4 +70,6 @@ class Metrics {
   }
 }
 
+window.Metrics = Metrics;
+
 export default Metrics;
