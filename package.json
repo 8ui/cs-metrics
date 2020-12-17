@@ -1,0 +1,27 @@
+{
+  "name": "cs-metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel --presets es2015 -d dist/ index.js",
+    "prepare": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ui/cs-metrics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ui/cs-metrics/issues"
+  },
+  "homepage": "https://github.com/8ui/cs-metrics#readme",
+  "dependencies": {
+    "detect-browser": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
