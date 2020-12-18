@@ -4,6 +4,10 @@ module.exports = {
  "mode": "none",
  "entry": "./src/index.js",
  "output": {
+   // "library": "Metrics",
+   // "libraryExport": "Metrics1",
+   // "scriptType": "text/javascript",
+   // "libraryTarget": "this",
    "path": __dirname + '/dist',
    "filename": "index.js"
  },
@@ -21,7 +25,8 @@ module.exports = {
          "options": {
            "presets": [
              "@babel/preset-env",
-           ]
+           ],
+           "sourceType": "unambiguous"
          }
        }
      },

@@ -6,7 +6,7 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "Metrics": () => /* binding */ Metrics
 /* harmony export */ });
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -18,7 +18,7 @@ var _require = __webpack_require__(1),
     detect = _require.detect;
 
 var Metrics = /*#__PURE__*/function () {
-  function Metrics() {
+  function Metrics(props) {
     _classCallCheck(this, Metrics);
 
     this.url = 'https://metrics.cloudshop.ru/';
@@ -30,6 +30,10 @@ var Metrics = /*#__PURE__*/function () {
         browser: null
       }
     };
+
+    if (props && props.client_id && props.user_id) {
+      this.init(props);
+    }
   }
 
   _createClass(Metrics, [{
@@ -95,9 +99,7 @@ var Metrics = /*#__PURE__*/function () {
 
   return Metrics;
 }();
-
 window.Metrics = Metrics;
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Metrics);
 
 /***/ }),
 /* 1 */

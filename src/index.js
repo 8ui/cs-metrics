@@ -1,7 +1,7 @@
 const { detect } = require('detect-browser');
 
-class Metrics {
-  constructor() {
+export class Metrics {
+  constructor(props) {
     this.url = 'https://metrics.cloudshop.ru/';
 
     this.config = {
@@ -11,6 +11,10 @@ class Metrics {
         version: '1.0',
         browser: null
       }
+    }
+
+    if (props && props.client_id && props.user_id) {
+      this.init(props)
     }
   }
 
@@ -71,5 +75,3 @@ class Metrics {
 }
 
 window.Metrics = Metrics;
-
-export default Metrics;
