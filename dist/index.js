@@ -1,12 +1,12 @@
-/******/ (() => { // webpackBootstrap
+/******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
 /* 0 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Metrics": () => /* binding */ Metrics
+/* harmony export */   "Metrics": function() { return /* binding */ Metrics; }
 /* harmony export */ });
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -103,20 +103,20 @@ window.Metrics = Metrics;
 
 /***/ }),
 /* 1 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "BrowserInfo": () => /* binding */ BrowserInfo,
-/* harmony export */   "NodeInfo": () => /* binding */ NodeInfo,
-/* harmony export */   "SearchBotDeviceInfo": () => /* binding */ SearchBotDeviceInfo,
-/* harmony export */   "BotInfo": () => /* binding */ BotInfo,
-/* harmony export */   "ReactNativeInfo": () => /* binding */ ReactNativeInfo,
-/* harmony export */   "detect": () => /* binding */ detect,
-/* harmony export */   "browserName": () => /* binding */ browserName,
-/* harmony export */   "parseUserAgent": () => /* binding */ parseUserAgent,
-/* harmony export */   "detectOS": () => /* binding */ detectOS,
-/* harmony export */   "getNodeVersion": () => /* binding */ getNodeVersion
+/* harmony export */   "BrowserInfo": function() { return /* binding */ BrowserInfo; },
+/* harmony export */   "NodeInfo": function() { return /* binding */ NodeInfo; },
+/* harmony export */   "SearchBotDeviceInfo": function() { return /* binding */ SearchBotDeviceInfo; },
+/* harmony export */   "BotInfo": function() { return /* binding */ BotInfo; },
+/* harmony export */   "ReactNativeInfo": function() { return /* binding */ ReactNativeInfo; },
+/* harmony export */   "detect": function() { return /* binding */ detect; },
+/* harmony export */   "browserName": function() { return /* binding */ browserName; },
+/* harmony export */   "parseUserAgent": function() { return /* binding */ parseUserAgent; },
+/* harmony export */   "detectOS": function() { return /* binding */ detectOS; },
+/* harmony export */   "getNodeVersion": function() { return /* binding */ getNodeVersion; }
 /* harmony export */ });
 var __spreadArrays = (undefined && undefined.__spreadArrays) || function () {
     for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
@@ -354,32 +354,32 @@ function createVersionParts(count) {
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
-/******/ 	})();
+/******/ 	!function() {
+/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
+/******/ 		__webpack_require__.r = function(exports) {
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /************************************************************************/
 /******/ 	// startup
