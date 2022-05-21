@@ -2,7 +2,11 @@ const { detect } = require('detect-browser');
 
 export class Metrics {
   constructor(props) {
-    this.url = 'https://metrics.cloudshop.ru/';
+    const {
+      url = "https://metrics.cloudshop.ru/",
+    } = props
+
+    this.url = url;
 
     this.config = {
       app: {
